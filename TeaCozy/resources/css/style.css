@@ -1,0 +1,149 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.main {
+  display: block;
+  padding-top: 69px;
+  text-align: center;
+  z-index: 0;
+}
+
+/*********************header*********************/
+
+header {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  flex-wrap: wrap;
+  height: 69px;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  display: inline-flex;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+}
+
+span a {
+  color: seashell;
+  margin: 15px;
+}
+
+/*********************banner*********************/
+
+.banner-mission {
+  align-items: center;
+  background: url("../images/img-mission-background.jpg") center top no-repeat;
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-content {
+  background-color: black;
+  width: 1200px;
+}
+
+.text-content h2,h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/****************featured-products***************/
+
+.featured-products {
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.flex-container .products {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.product img {
+  margin: 10px;
+}
+
+/*******************locations********************/
+
+.locations {
+  align-items: center;
+  background: url("../images/img-locations-background.jpg") center top no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding-top: 60px;
+}
+
+.locations-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.location {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  padding: 3px;
+  width: 300px;
+}
+
+.location h3 {
+  padding: 15px;
+  margin: 0;
+}
+
+/*********************footer*********************/
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-footer {
+  height: 200px;
+  text-align: center;
+}
+
+.copy {
+  text-align: left;
+  padding-left: 20px;
+}
